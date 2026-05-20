@@ -1,4 +1,27 @@
-# js-array-tasks
+## 🎨 JavaScript Array Methods (Cheat Sheet with Examples)
+
+| Method | Use | Example |
+|--------|-----|----------|
+| push() | add element at end | arr.push(10) |
+| pop() | remove last element | arr.pop() |
+| shift() | remove first element | arr.shift() |
+| unshift() | add element at start | arr.unshift(5) |
+| map() | transform elements | arr.map(x => x * 2) |
+| filter() | select matched items | arr.filter(x => x > 10) |
+| reduce() | single value result | arr.reduce((a,b)=>a+b) |
+| find() | first match | arr.find(x => x > 10) |
+| findIndex() | index of match | arr.findIndex(x => x > 10) |
+| includes() | check existence | arr.includes(5) |
+| indexOf() | find position | arr.indexOf(10) |
+| slice() | copy part of array | arr.slice(0, 2) |
+| splice() | add/remove items | arr.splice(1, 1) |
+| forEach() | loop array | arr.forEach(x => console.log(x)) |
+| sort() | sort array | arr.sort() |
+| reverse() | reverse array | arr.reverse() |
+
+
+
+## Javascript Array Problems :
 
 ### 1. Declare an array 
 1. Declare an array with 5 elements containing fruits
