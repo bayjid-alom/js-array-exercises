@@ -73,7 +73,7 @@ console.log("Using for loop: ", reversed)
 
 
 // Way -- 03 (without using reverse method)
-// reverse way loop
+// reverse way loop - decremental for loop
 
 const reverse_way = [];
 for (let i = numbers_2.length - 1; i >= 0; i--) {
@@ -114,6 +114,8 @@ console.log(numbers_dsc)
 
 
 
+console.log("===============| Practice |================")
+// repo: 
 
 
 
