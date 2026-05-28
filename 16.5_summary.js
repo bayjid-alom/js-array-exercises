@@ -85,6 +85,39 @@ console.log("Using reverse way :", reversed)
 
 
 
+console.log("===============| sort an array |================")
+
+// Ascending (smaller to larger A-Z  0-9)
+// Descendig (larger to smaller Z-A  9-0)
+
+
+const persons = ["Shakib", "Tamim", "Mustafiz", "Masrafee", "Ashraful", "ashraful"]
+const sortedPersons = persons.sort()
+console.log(sortedPersons)
+
+
+const numbers_3 = [4, 7, 12, 6, 10, 20, 30, 40, 50, 15, 25, 35];
+const numbers_asc = numbers_3.sort()           // not working properly
+
+// working this - ascending
+const numbers_asc_2 = [...numbers_3].sort(function (a, b) { return a - b })
+
+// working this - descending
+const numbers_dsc = [...numbers_3].sort(function (a, b) { return b - a })
+
+console.log(numbers_asc_2)
+console.log(numbers_dsc)
+
+
+// [...numbers_3]     array will copy | not change
+
+
+
+
+
+
+
+
 
 
 
